@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synchronized Desktop Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="calendar">
+    <header id="calendar-header">
+      <button id="prev-month" aria-label="Previous Month">&lt;</button>
+      <div id="month-year"></div>
+      <button id="next-month" aria-label="Next Month">&gt;</button>
+      <button id="today-btn" aria-label="Today">Today</button>
+    </header>
+    <nav id="calendar-days">
+      <div class="day-name">Sun</div>
+      <div class="day-name">Mon</div>
+      <div class="day-name">Tue</div>
+      <div class="day-name">Wed</div>
+      <div class="day-name">Thu</div>
+      <div class="day-name">Fri</div>
+      <div class="day-name">Sat</div>
+    </nav>
+    <section id="calendar-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
